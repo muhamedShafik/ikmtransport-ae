@@ -219,7 +219,7 @@
         'Please provide a quote. Thank you.'
       );
 
-      window.open('https://wa.me/971500000000?text=' + text, '_blank');
+      window.open('https://wa.me/971567094916?text=' + text, '_blank');
     });
   }
 
