@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>IKM Transport — UAE Sewage & Wastewater Services</title>
+<meta name="description" content="Licensed sewage collection, septic tank cleaning & emergency tanker services in Dubai and Ajman, UAE."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body class="loading">
+
+<!-- PAGE LOADER -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">
+      <svg width="52" height="40" viewBox="0 0 32 24" fill="none">
+        <path d="M4 20L10 4L16 14L22 4L28 20" stroke="#EF052B" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16 4L16 1" stroke="#EF052B" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M13.5 3L16 0.5L18.5 3" stroke="#EF052B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div><strong>IKM TRANSPORT</strong><span>of sewage water service</span></div>
+    </div>
+    <div class="loader-progress"><div class="loader-bar" id="loaderBar"></div></div>
+    <p class="loader-pct" id="loaderPct">0%</p>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="header-inner">
+    <a href="#home" class="logo">
+      <div class="logo-icon">
+        <svg width="26" height="20" viewBox="0 0 32 24" fill="none">
+          <path d="M4 20L10 4L16 14L22 4L28 20" stroke="#EF052B" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16 4L16 1" stroke="#EF052B" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="M13.5 3L16 0.5L18.5 3" stroke="#EF052B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <strong>IKM TRANSPORT</strong>
+        <span>of sewage water service</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="#home" class="nav-a active">Home</a>
+      <a href="#services" class="nav-a">Services</a>
+       <a href="#testimonials" class="nav-a">Testimonials</a>
+      <a href="#about" class="nav-a">About</a>
+     
+      <a href="#contact" class="nav-a">Contact</a>
+    </nav>
+    <div class="hdr-right">
+      <a href="#contact" class="btn btn-primary hdr-btn">Get a Quote <span class="btn-arrow">→</span></a>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="header-line"></div>
+</header>
+
+<!-- MOBILE DRAWER -->
+<div class="drawer" id="drawer">
+  <div class="drawer-head">
+    <svg width="28" height="22" viewBox="0 0 32 24" fill="none">
+      <path d="M4 20L10 4L16 14L22 4L28 20" stroke="#EF052B" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M16 4L16 1" stroke="#EF052B" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M13.5 3L16 0.5L18.5 3" stroke="#EF052B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <strong>IKM TRANSPORT</strong>
+    <button id="drawerClose" class="drawer-x">✕</button>
+  </div>
+  <nav class="drawer-nav">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="drawer-ctas">
+    <a href="tel:+971500000000" class="btn btn-primary">📞 Call Now</a>
+    <a href="https://wa.me/971500000000" target="_blank" class="btn btn-wa">💬 WhatsApp</a>
+  </div>
+</div>
+<div class="drawer-mask" id="drawerMask"></div>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-left">
+    <div class="hero-text">
+      <h1 class="hero-line1">IKM</h1>
+      <h2 class="hero-line2">TRANSPORTS</h2>
+      <div class="hero-flipper">
+        <div class="flip-container" id="flipContainer">
+          <div class="flip-word active">SEWAGE EXPERTS.</div>
+          <div class="flip-word">ALWAYS ON TIME.</div>
+          <div class="flip-word">AVAILABLE 24/7.</div>
+        </div>
+      </div>
+      <p class="hero-tagline">Moving Waste. Keeping Cities Clean.</p>
+      <a href="#contact" class="cta-button" id="ctaButton">GET A QUOTE</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-red-stripe"></div>
+    <div class="hero-image-overlay"></div>
+    <img src="https://picsum.photos/900/1200?random=1" alt="IKM Transports sewage truck" class="hero-image" />
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>Municipality Approved</span><i>✦</i>
+    <span>Dubai Licensed</span><i>✦</i>
+    <span>Ajman Operations</span><i>✦</i>
+    <span>24/7 Emergency</span><i>✦</i>
+    <span>50+ Tanker Fleet</span><i>✦</i>
+    <span>Eco-Responsible Disposal</span><i>✦</i>
+    <span>500+ Clients Served</span><i>✦</i>
+    <span>Municipality Approved</span><i>✦</i>
+    <span>Dubai Licensed</span><i>✦</i>
+    <span>Ajman Operations</span><i>✦</i>
+    <span>24/7 Emergency</span><i>✦</i>
+    <span>50+ Tanker Fleet</span><i>✦</i>
+    <span>Eco-Responsible Disposal</span><i>✦</i>
+    <span>500+ Clients Served</span><i>✦</i>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="section bg-white" id="services">
+  <div class="container">
+    <div class="sec-head" data-reveal>
+      <div class="sec-label">Our Services</div>
+      <h2 class="sec-h2">Expert services for <em>every sewage need.</em></h2>
+      <a href="#contact" class="sec-link desk-only">View all →</a>
+    </div>
+    <div class="svc-grid">
+      <article class="svc-card" data-reveal data-delay="1">
+        <div class="svc-img">
+          <img src="./asset/img/hero2.png" alt="Sewage collection tanker" loading="lazy"/>
+          <div class="svc-img-overlay"></div>
+          <span class="svc-num">01</span>
+        </div>
+        <div class="svc-body">
+          <div class="svc-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 4v4h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <h3>Sewage Collection &amp; Transport</h3>
+          <p>Scheduled and on-demand vacuum tanker dispatch for residential, commercial, and industrial sites across UAE.</p>
+          <a href="#contact" class="svc-cta">Book a Tanker <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </article>
+      <article class="svc-card" data-reveal data-delay="2">
+        <div class="svc-img">
+          <img src="./asset/img/hero1.png" alt="Septic tank service" loading="lazy"/>
+          <div class="svc-img-overlay"></div>
+          <span class="svc-num">02</span>
+        </div>
+        <div class="svc-body">
+          <div class="svc-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Septic Tank Cleaning</h3>
+          <p>Full extraction and hygienic clean for villas, compounds, and commercial properties. Certified crews with full PPE.</p>
+          <a href="#contact" class="svc-cta">Book a Clean <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </article>
+      <article class="svc-card" data-reveal data-delay="3">
+        <div class="svc-img">
+          <img src="./asset/img/hero3.png" alt="Wastewater disposal" loading="lazy"/>
+          <div class="svc-img-overlay"></div>
+          <span class="svc-num">03</span>
+        </div>
+        <div class="svc-body">
+          <div class="svc-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c4.418 0 8-3.582 8-8 0-3.5-2-6.5-4-8l-4 4-4-4c-2 1.5-4 4.5-4 8 0 4.418 3.582 8 8 8z"/></svg>
+          </div>
+          <h3>Wastewater Disposal</h3>
+          <p>Municipality-approved disposal with full documentation, traceable handling, and eco-responsible transport to licensed facilities.</p>
+          <a href="#contact" class="svc-cta">Get a Quote <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </article>
+      <article class="svc-card svc-emergency" data-reveal data-delay="4">
+        <div class="svc-img">
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=700&q=80" alt="Emergency response" loading="lazy"/>
+          <div class="svc-img-overlay"></div>
+          <span class="svc-num">04</span>
+          <div class="svc-badge"><span class="badge-blink"></span>24/7</div>
+        </div>
+        <div class="svc-body">
+          <div class="svc-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Emergency Tanker Service</h3>
+          <p>Overflow response and same-day callouts around the clock. One call and IKM dispatches within the hour.</p>
+          <a href="tel:+971500000000" class="svc-cta emg-cta">Call Emergency Line <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- STATS FULLBLEED -->
+<section class="stats-section">
+  <div class="stats-bg">
+    <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1800&q=80" alt="UAE industrial" loading="lazy"/>
+    <div class="stats-overlay"></div>
+  </div>
+  <div class="container stats-inner">
+    <div class="stat-block" data-reveal data-delay="1">
+      <strong class="counter" data-to="15">0</strong><sup>+</sup>
+      <span>Years in UAE</span>
+    </div>
+    <div class="stat-sep"></div>
+    <div class="stat-block" data-reveal data-delay="2">
+      <strong class="counter" data-to="50">0</strong><sup>+</sup>
+      <span>Tankers</span>
+    </div>
+    <div class="stat-sep"></div>
+    <div class="stat-block" data-reveal data-delay="3">
+      <strong class="counter" data-to="500">0</strong><sup>+</sup>
+      <span>Clients Served</span>
+    </div>
+    <div class="stat-sep"></div>
+    <div class="stat-block" data-reveal data-delay="4">
+      <strong>24/7</strong>
+      <span>Emergency Dispatch</span>
+    </div>
+  </div>
+</section>
+<section id="testimonials" class="section testimonials">
+    <div class="container">
+      <h2 class="section-heading centered reveal" style="color:black; margin-bottom: 90px;">TESTIMONIALS</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="stars" style=" --rating: 4.5;"></div>
+         
+          <p class="testimonial-quote">"IKM Transports arrived within an hour of our emergency call. Professional, fast, and thorough. We won't call anyone else."</p>
+          <div class="testimonial-author">— Ahmed K., Property Manager</div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="stars" style=" --rating: 3.5;"></div>
+         
+          <p class="testimonial-quote">"We've used IKM for our commercial complex for over 3 years. Their scheduled collection service is always on time and hassle-free."</p>
+          <div class="testimonial-author">— Fatima R., Business Owner</div>
+        </div>
+        <div class="testimonial-card reveal">
+        <div class="stars" style=" --rating: 5;"></div>
+         
+          <p class="testimonial-quote">"Transparent pricing, friendly crew, and eco-conscious disposal. IKM sets the standard in sewage transport services."</p>
+          <div class="testimonial-author">— Mohammed S., Municipality Officer</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- WHY IKM -->
+<section class="why-section bg-black" id="about">
+  <div class="why-img-col">
+    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=80" alt="IKM fleet" loading="lazy"/>
+    <div class="why-img-shade"></div>
+    <div class="why-float-card" data-reveal>
+      <strong>50+</strong>
+      <span>Licensed tankers ready for immediate dispatch</span>
+    </div>
+  </div>
+  <div class="why-content" data-reveal>
+    <div class="sec-label light">Why IKM Transport</div>
+    <h2 class="sec-h2 light">Why leading facilities<br/>choose <em>IKM.</em></h2>
+    <div class="why-list">
+      <div class="why-item" data-reveal data-delay="1">
+        <div class="why-dot">✅</div>
+        <div><h4>Municipality Approved</h4><p>Dubai and Ajman licensed with all compliance documentation and disposal permits.</p></div>
+      </div>
+      <div class="why-item" data-reveal data-delay="2">
+        <div class="why-dot">🚛</div>
+        <div><h4>Licensed Tanker Fleet</h4><p>50+ vacuum tankers certified and maintained to UAE standards for every job size.</p></div>
+      </div>
+      <div class="why-item" data-reveal data-delay="3">
+        <div class="why-dot">⚡</div>
+        <div><h4>24/7 Emergency Response</h4><p>Overflow and urgent callouts handled around the clock, 365 days a year.</p></div>
+      </div>
+      <div class="why-item" data-reveal data-delay="4">
+        <div class="why-dot">🌿</div>
+        <div><h4>Eco-Responsible Disposal</h4><p>All waste to approved treatment facilities. Zero unregulated discharge, ever.</p></div>
+      </div>
+    </div>
+    <a href="#contact" class="btn btn-primary btn-xl" data-reveal data-delay="5">Request a Quote →</a>
+  </div>
+</section>
+
+<!-- COMPLIANCE -->
+<section class="section bg-offwhite">
+  <div class="container comp-grid">
+    <div data-reveal>
+      <div class="sec-label">Compliance</div>
+      <h2 class="sec-h2">Fully compliant with<br/><em>UAE regulations.</em></h2>
+      <ul class="check-list">
+        <li>Dubai Municipality approved operations</li>
+        <li>Ajman licensed tanker fleet</li>
+        <li>Full disposal documentation &amp; manifests</li>
+        <li>Certified crew with PPE &amp; spill prevention</li>
+        <li>Waste to approved treatment facilities only</li>
+      </ul>
+    </div>
+    <div class="eco-card" data-reveal data-delay="2">
+      <div class="eco-img-wrap">
+        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80" alt="Environmental responsibility" loading="lazy"/>
+        <div class="eco-img-fade"></div>
+      </div>
+      <div class="eco-body">
+        <div class="red-bar"></div>
+        <h3>Environmental responsibility at every step.</h3>
+        <ul>
+          <li>Zero unregulated discharge — all waste to licensed facilities</li>
+          <li>Route optimisation reduces fuel use and emissions</li>
+          <li>Spill-prevention protocols &amp; double-sealed tanks</li>
+        </ul>
+        <a href="#contact" class="svc-cta light-link">Learn more →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FULLBLEED -->
+<section class="cta-section">
+  <div class="cta-bg">
+    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1800&q=80" alt="" loading="lazy"/>
+    <div class="cta-overlay"></div>
+    <div class="cta-scan-lines" aria-hidden="true"></div>
+  </div>
+  <div class="container cta-content" data-reveal>
+    <div class="cta-badge"><span class="pill-dot"></span> Available 24/7</div>
+    <h2>Ready to book?<br/><em>We dispatch within the hour.</em></h2>
+    <p>Contact IKM Transport — Dubai &amp; Ajman. One call is all it takes.</p>
+    <div class="cta-btns">
+      <a href="tel:+971500000000" class="btn btn-white btn-xl">📞 Call +971 50 000 0000</a>
+      <a href="https://wa.me/971500000000" target="_blank" class="btn btn-wa btn-xl">💬 WhatsApp Now</a>
+      <a href="#contact" class="btn btn-glass btn-xl">Request a Quote →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section bg-black" id="contact">
+  <div class="container contact-wrap">
+    <div class="contact-left" data-reveal>
+      <div class="sec-label light">Get In Touch</div>
+      <h2 class="sec-h2 light">Contact<br/><em>IKM Transport.</em></h2>
+      <p class="contact-sub">We respond within the hour. For emergencies, call our dispatch line directly.</p>
+      <div class="contact-chips">
+        <a href="tel:+971500000000" class="cchip">📞 +971 50 000 0000</a>
+        <a href="https://wa.me/971500000000" target="_blank" class="cchip">💬 WhatsApp</a>
+        <a href="mailto:ops@ikmtransport.ae" class="cchip">✉ ops@ikmtransport.ae</a>
+      </div>
+      <div class="emg-box">
+        <div class="emg-pulse"></div>
+        <div class="emg-text">
+          <strong>Emergency line — 24/7</strong>
+          <p>Overflow situation? Don't use the form. Call immediately.</p>
+          <a href="tel:+971500000000" class="btn btn-primary" style="margin-top:14px;width:100%;justify-content:center;">📞 Call Emergency Line</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-right" data-reveal data-delay="2">
+      <form class="qform" id="quoteForm" novalidate>
+        <div class="qform-head">
+          <h3>Request a Quote</h3>
+          <p>Opens WhatsApp with your details pre-filled.</p>
+        </div>
+        <div class="field"><label for="fname">Full Name</label><input id="fname" type="text" placeholder="Your full name" required/></div>
+        <div class="field"><label for="fphone">Phone / WhatsApp</label><input id="fphone" type="tel" placeholder="+971..." required/></div>
+        <div class="field-row">
+          <div class="field"><label for="fcity">City</label><select id="fcity"><option>Dubai</option><option>Ajman</option><option>Sharjah</option><option>Other UAE</option></select></div>
+          <div class="field"><label for="fservice">Service</label><select id="fservice"><option>Sewage Collection</option><option>Septic Tank Cleaning</option><option>Wastewater Disposal</option><option>Emergency Service</option></select></div>
+        </div>
+        <div class="field"><label for="fmsg">Job Details</label><textarea id="fmsg" placeholder="Site type, volume, urgency, access notes..."></textarea></div>
+        <button type="submit" class="btn btn-primary btn-xl full-w">Send via WhatsApp →</button>
+        <p class="form-note">Opens WhatsApp — no app install needed on browser.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-body container">
+    <div class="footer-brand">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg width="26" height="20" viewBox="0 0 32 24" fill="none">
+            <path d="M4 20L10 4L16 14L22 4L28 20" stroke="#EF052B" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 4L16 1" stroke="#EF052B" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M13.5 3L16 0.5L18.5 3" stroke="#EF052B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="logo-text"><strong>IKM TRANSPORT</strong><span>of sewage water service</span></div>
+      </div>
+      <div class="footer-red"></div>
+      <p class="footer-about">Licensed sewage collection and wastewater transport across Dubai, Ajman, and the UAE since 2009.</p>
+      <div class="footer-contacts">
+        <a href="tel:+971500000000" class="fcchip">📞 +971 50 000 0000</a>
+        <a href="https://wa.me/971500000000" target="_blank" class="fcchip">💬 WhatsApp</a>
+        <a href="mailto:ops@ikmtransport.ae" class="fcchip">✉ Email</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <a href="#services">Sewage Collection</a>
+      <a href="#services">Septic Tank Cleaning</a>
+      <a href="#services">Wastewater Disposal</a>
+      <a href="#services">Emergency Service</a>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+      <h5 style="margin-top:1.5rem">Service Areas</h5>
+      <a href="#contact">Dubai</a>
+      <a href="#contact">Ajman</a>
+      <a href="#contact">Sharjah Corridor</a>
+    </div>
+  </div>
+  <div class="footer-bar container">
+    <p>© 2026 IKM Transport. All rights reserved.</p>
+    <p>Dubai Municipality Approved · Ajman Operations Licensed</p>
+  </div>
+</footer>
+
+<!-- FABs -->
+<div class="fabs" id="fabs">
+  <a class="fab fab-call" href="tel:+971500000000" aria-label="Call IKM Transport">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.06 2.18 2 2 0 012.04 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+    <span class="fab-tip">Call Now</span>
+  </a>
+  <a class="fab fab-wa" href="https://wa.me/971500000000" target="_blank" aria-label="WhatsApp IKM">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.116 1.524 5.845L0 24l6.29-1.501A11.947 11.947 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.805 9.805 0 01-5.032-1.384l-.36-.214-3.733.891.936-3.638-.235-.374A9.786 9.786 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182c5.429 0 9.818 4.388 9.818 9.818 0 5.429-4.389 9.818-9.818 9.818z"/></svg>
+    <span class="fab-tip">WhatsApp</span>
+  </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
