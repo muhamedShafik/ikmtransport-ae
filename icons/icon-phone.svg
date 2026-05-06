@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Phone handset body -->
+  <path
+    d="M20 10h-6a3 3 0 0 0-3 3v2c0 19.882 16.118 36 36 36h2a3 3 0 0 0 3-3v-6a3 3 0 0 0-3-3l-7-1.5a3 3 0 0 0-3 1.2l-2.5 3c-5.5-2.8-10.2-7.5-13-13l3-2.5a3 3 0 0 0 1.2-3L26 13a3 3 0 0 0-3-3h-3z"
+    stroke="#000"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

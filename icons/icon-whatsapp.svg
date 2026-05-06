@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Outer speech bubble circle -->
+  <path
+    d="M32 6C17.641 6 6 17.641 6 32c0 4.741 1.285 9.19 3.527 13.008L6 58l13.352-3.43A25.847 25.847 0 0 0 32 58c14.359 0 26-11.641 26-26S46.359 6 32 6z"
+    stroke="#000"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- WhatsApp handset path -->
+  <path
+    d="M23.5 20.5c.5 0 1.2.3 1.5 1l2 4.5c.3.7.1 1.5-.4 2l-1.6 1.6c1.2 2.4 3.4 4.6 5.9 5.9l1.6-1.6c.5-.5 1.3-.7 2-.4l4.5 2c.7.3 1 1 1 1.5v4c0 1-.8 1.5-1.8 1.4C27.2 41.4 22.6 36.8 21.1 26.3c-.1-1 .4-1.8 1.4-1.8h1z"
+    stroke="#000"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+</svg>

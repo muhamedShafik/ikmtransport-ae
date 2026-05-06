@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Envelope body -->
+  <rect x="7" y="18" width="50" height="36" rx="3" ry="3"
+    stroke="#000"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Flap (slightly open) -->
+  <path
+    d="M7 21l25 18 25-18"
+    stroke="#000"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Document peeking out from top -->
+  <rect x="24" y="8" width="16" height="20" rx="2"
+    stroke="#000"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Document lines -->
+  <line x1="28" y1="14" x2="36" y2="14"
+    stroke="#000"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+  <line x1="28" y1="19" x2="36" y2="19"
+    stroke="#000"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+</svg>
